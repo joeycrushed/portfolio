@@ -12,12 +12,13 @@
 }
 
 .banner__items img {
-    height: 200px;
-    border-radius: 100px;
+    height: 350px;
+    border-radius: 200px;
 }
 
 .banner__items h1 {
     margin-bottom: 40px;
+    color: white;
 }
 
 .banner__btn {
@@ -27,4 +28,21 @@
     padding: 10px 16px;
     text-decoration: none;
     color: white;
+}
+
+.hero {
+	height: 100vh;
+	background: linear-gradient(45deg, rgba(75, 172, 196, 0.7), rgba(6, 48, 58, 0.7), rgba(155, 127, 127, 0.7), rgba(48, 38, 41, 0.7), rgba(16, 70, 69, 0.7)) 0 0 / 1000% no-repeat, url(https://i.picsum.photos/id/1021/2048/1206.jpg?hmac=fqT2NWHx783Pily1V_39ug_GFH1A4GlbmOMu8NWB3Ts) 0 0 / cover no-repeat;
+	-webkit-animation: gradientAnimation 50s ease infinite;
+	animation: gradientAnimation 50s ease infinite;
+}
+@-webkit-keyframes gradientAnimation {
+	0%   { background-position: 0% 30%, 0 0;}
+	50%  { background-position: 100% 70%, 0 0;}
+	100% { background-position: 0% 30%, 0 0;}
+}
+@keyframes gradientAnimation {
+	0%   { background-position: 0% 30%, 0 0;}
+	50%  { background-position: 100% 70%, 0 0;}
+	100% { background-position: 0% 30%, 0 0;}
 }
