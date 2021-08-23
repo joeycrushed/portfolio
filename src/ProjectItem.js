@@ -1,13 +1,13 @@
 import React from 'react'
 import './ProjectItem.css'
 
-function ProjectItem() {
+function ProjectItem(props) {
     return (
         <div>
              <div className="project__item">
-                <h1>Project 1</h1>
-                <img src="https://res.cloudinary.com/ds6vgzap2/image/upload/v1629732564/project_vjteem.png" alt="" />
-                <p>Description</p>
+                <h1>{props.title}</h1>
+                <img src={props.image} alt="" />
+                <p>{props.description}</p>
                 <a href="#" className="project__link">Check it out</a>
                 <a href="#" className="project__link">Github</a>
             </div>      
