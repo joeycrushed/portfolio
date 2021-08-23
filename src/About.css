@@ -1,0 +1,23 @@
+.about__container {
+        text-align: center;
+        padding: 40px;
+        background-color: rgb(224, 226, 226);
+        color: black;
+
+}
+
+.about__items {
+    padding: 18px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icon {
+    font-size: 277px;
+}
+
+.about__text {
+    width: 500px;
+}
