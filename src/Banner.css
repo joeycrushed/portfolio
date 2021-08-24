@@ -8,7 +8,7 @@
 
 .banner__items {
     text-align: center ;
-    margin-bottom: 50px;
+    margin-bottom: 8px;
 }
 
 .banner__items img {
@@ -34,6 +34,13 @@
 .banner__btn:hover {
     background-color: rgb(179, 179, 179);
     transition: all 0.3s;
+}
+
+.scroll__down {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    font-size: 20px;
 }
 
 .hero {

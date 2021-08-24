@@ -25,6 +25,7 @@
     text-decoration: none;
     list-style: none;
     color: white;
+    cursor: default;
 }
 
 .nav__link:hover {
@@ -32,6 +33,7 @@
     list-style: none;
     border-bottom: white 2px solid;
     color: white;
+    cursor: pointer;
 }
 
 .logo {

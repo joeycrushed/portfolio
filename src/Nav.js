@@ -8,9 +8,9 @@ function Nav() {
         <div className="nav">
                 <img className="logo" src={logo} alt="" />
             <ul className="nav__items">
-                <Link to="projects" spy={true} smooth={true} duration={1000}>Projects</Link>
-                <Link activeClass="nav__link" to="about" spy={true} smooth={true} duration={1000}>About</Link>
-                <Link to="contact" spy={true} smooth={true} duration={1000}>Contact</Link> 
+                <Link className="nav__link" to="projects" spy={true} smooth={true} duration={1000}>Projects</Link>
+                <Link className="nav__link" to="about" spy={true} smooth={true} duration={1000}>About</Link>
+                <Link className="nav__link" to="contact" spy={true} smooth={true} duration={1000}>Contact</Link> 
             </ul>
         </div>
     )
