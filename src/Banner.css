@@ -31,8 +31,13 @@
     margin-right: 15px;
 }
 
+.banner__btn:hover {
+    background-color: rgb(179, 179, 179);
+    transition: all 0.3s;
+}
+
 .hero {
-	height: 100vh;
+	height: 80vh;
 	background: linear-gradient(45deg, rgba(75, 172, 196, 0.7), rgba(6, 48, 58, 0.7), rgba(155, 127, 127, 0.7), rgba(48, 38, 41, 0.7), rgba(16, 70, 69, 0.7)) 0 0 / 1000% no-repeat, url(https://i.picsum.photos/id/1021/2048/1206.jpg?hmac=fqT2NWHx783Pily1V_39ug_GFH1A4GlbmOMu8NWB3Ts) 0 0 / cover no-repeat;
 	-webkit-animation: gradientAnimation 50s ease infinite;
 	animation: gradientAnimation 50s ease infinite;

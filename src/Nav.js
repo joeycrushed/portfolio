@@ -4,7 +4,9 @@ import './Nav.css'
 function Nav() {
     return (
         <div className="nav">
-            <h1>My Portfolio</h1>
+            <div className="logo">
+                
+            </div>
             <ul className="nav__items">
                 <a href="" className="nav__link">About</a>
                 <a href="#" className="nav__link">Projects</a>

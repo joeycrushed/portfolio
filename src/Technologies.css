@@ -1,14 +1,22 @@
 .tech__contents {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 80px;
     text-align: center;
-    height: 340px;
+}
+
+.tech__items {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 .tech__contents h1 {
-    margin-bottom: 80px;
+    margin-bottom: 69px;
 }
 
 .tech__items img{
  height: 120px;
  margin-right: 50px;
+ padding-bottom: 12px;
 }
