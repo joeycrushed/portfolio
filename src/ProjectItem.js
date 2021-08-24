@@ -4,7 +4,7 @@ import './ProjectItem.css'
 function ProjectItem(props) {
     return (
         <div>
-             <div className="project__item">
+             <div className="project__item project__gradient">
                 <h1>{props.title}</h1>
                 <img src={props.image} alt="" />
                 <p>{props.description}</p>

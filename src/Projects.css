@@ -1,6 +1,7 @@
 .project__container {
     padding: 50px;
     text-align: center;
+    
 }
 
 .project__card {
@@ -22,7 +23,6 @@
 .project__card > * {
     margin: 1em 0;
   }
-
   
 
   
