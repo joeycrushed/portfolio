@@ -33,3 +33,9 @@
     border-bottom: white 2px solid;
     color: white;
 }
+
+.logo {
+    height: 69px;
+    position: relative;
+    right: 18px;
+}

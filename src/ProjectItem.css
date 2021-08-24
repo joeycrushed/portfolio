@@ -1,29 +1,37 @@
 .project__item {
+	background-size: cover;
+	background-position-x: -250px;
     padding: 16px;
     width: 400px;
     height: 450px;
-    background-color: rgb(224, 226, 226);
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
-	color: white;
+	color: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+
 }
 
 .project__item img {
     cursor: pointer;
     height: 200px;
+	border-radius: 2px;
 }
 
-.project__gradient {
-	background: linear-gradient(45deg, rgba(75, 172, 196, 0.7), rgba(6, 48, 58, 0.7), rgba(155, 127, 127, 0.7), rgba(48, 38, 41, 0.7), rgba(16, 70, 69, 0.7)) 0 0 / 1000% no-repeat, url(https://i.picsum.photos/id/1021/2048/1206.jpg?hmac=fqT2NWHx783Pily1V_39ug_GFH1A4GlbmOMu8NWB3Ts) 0 0 / cover no-repeat;
-	-webkit-animation: gradientAnimation 50s ease infinite;
-	animation: gradientAnimation 50s ease infinite;
+.project__link {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 21px;
+    padding: 10px 16px;
+    margin: 30px;
+	border: white 1px solid;
 }
-@-webkit-keyframes gradientAnimation {
-	0%   { background-position: 0% 30%, 0 0;}
-	50%  { background-position: 100% 70%, 0 0;}
-	100% { background-position: 0% 30%, 0 0;}
-}
-@keyframes gradientAnimation {
-	0%   { background-position: 0% 30%, 0 0;}
-	50%  { background-position: 100% 70%, 0 0;}
-	100% { background-position: 0% 30%, 0 0;}
+
+.project__link:hover {
+	background-color: rgb(187, 187, 187);
+	transition: all 0.3s;
 }

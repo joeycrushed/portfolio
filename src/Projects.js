@@ -4,7 +4,7 @@ import './Projects.css'
 
 function Projects() {
     return (
-        <div className="project__container">
+        <div className="project__container" id="projects">
         <h1>Projects</h1>
         <div className="project__card">
             <ProjectItem title="PawPals" image="https://res.cloudinary.com/ds6vgzap2/image/upload/v1629732564/project_vjteem.png"

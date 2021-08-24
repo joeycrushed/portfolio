@@ -8,6 +8,9 @@ import Footer from './Footer';
 
 
 function App() {
+
+  window.scrollTo({top: 0, left: 0, behavior: 'smooth' });
+
   return (
     <div className="app">
       <Nav />

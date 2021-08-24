@@ -3,7 +3,7 @@ import './About.css'
 
 function About() {
     return (
-        <div className="about__container">
+        <div className="about__container" id="about">
             <div className="about__items">
                 <div className="icon">
                     <i className="fas fa-laptop-code"></i>

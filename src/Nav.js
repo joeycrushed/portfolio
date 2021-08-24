@@ -1,16 +1,16 @@
 import React from 'react'
 import './Nav.css'
+import { Link } from 'react-scroll';
+import logo from'./images/logo.png'
 
 function Nav() {
     return (
         <div className="nav">
-            <div className="logo">
-                
-            </div>
+                <img className="logo" src={logo} alt="" />
             <ul className="nav__items">
-                <a href="" className="nav__link">About</a>
-                <a href="#" className="nav__link">Projects</a>
-                <a href="" className="nav__link">Contact</a> 
+                <Link to="projects" spy={true} smooth={true} duration={1000}>Projects</Link>
+                <Link activeClass="nav__link" to="about" spy={true} smooth={true} duration={1000}>About</Link>
+                <Link to="contact" spy={true} smooth={true} duration={1000}>Contact</Link> 
             </ul>
         </div>
     )
