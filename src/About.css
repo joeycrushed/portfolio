@@ -20,6 +20,7 @@
 
 .about__text {
     width: 639px;
+    
 }
 
 .about__text h1 {
@@ -28,7 +29,8 @@
 }
 
 .about__text p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 26px;
+    text-align: justify;
 }

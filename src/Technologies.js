@@ -12,7 +12,7 @@ import js_icon from './images/js_icon.png'
 function Technologies() {
     return (
         <div class="tech__contents">
-            <h1>Technologies</h1>
+            <h1>Technologies Used</h1>
             <div className="tech__items">
                 <img src={js_icon} alt="" />
                 <img src={react_icon} alt="" />
