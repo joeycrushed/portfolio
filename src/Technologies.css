@@ -1,0 +1,14 @@
+.tech__contents {
+    padding: 50px;
+    text-align: center;
+    height: 350px;
+}
+
+.tech__contents h1 {
+    margin-bottom: 80px;
+}
+
+.tech__items img{
+ height: 120px;
+ margin-right: 50px;
+}
