@@ -9,9 +9,12 @@ function About() {
                     <i className="fas fa-laptop-code"></i>
                 </div>
                 <div className="about__text">
-                    <h2>About me</h2>
-                    <p>I started coding recently after wanting to have a career change after working in retail
-                    management for 10 years. </p>
+                    <h1>About me</h1>
+                    <p>I'm a graduate of full stack web development at Le Wagon, London Batch 599. Currently looking
+                    for my first role in web development. At the moment, I'm learning the React library whilst working on wireframe for
+                    a vintage brand and also a nutritional fitness company. Previous to getting into coding I worked in retail management
+                    for 10 + years where I delivered the brand's aesthetic in-store through visual graphics and videos whilst managing service
+                    and sales. </p>
                 </div>
             </div>
         </div>
