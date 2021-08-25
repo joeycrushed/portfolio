@@ -35,6 +35,7 @@
     text-decoration: none;
     color: white;
     margin-right: 15px;
+    transition: all 0.3s;
 }
 
 .banner__btn:hover {
