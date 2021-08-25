@@ -5,9 +5,6 @@ function About() {
     return (
         <div className="about__container" id="about">
             <div className="about__items">
-                <div className="icon">
-                    <i className="fas fa-laptop-code"></i>
-                </div>
                 <div className="about__text">
                     <h1>About me</h1>
                     <p>I'm a graduate of full stack web development at Le Wagon, London Batch 599. Currently looking

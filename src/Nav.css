@@ -1,6 +1,6 @@
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0px 36px;
     background-color: black;
     color: white;
@@ -26,14 +26,15 @@
     list-style: none;
     color: white;
     cursor: default;
+    transform: scale(1.00);
 }
 
 .nav__link:hover {
     text-decoration: none;
     list-style: none;
-    border-bottom: white 2px solid;
     color: white;
     cursor: pointer;
+    transform: scale(1.03);
 }
 
 .logo {

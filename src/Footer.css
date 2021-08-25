@@ -22,3 +22,19 @@
     flex-direction: column;
     margin-bottom: 10px;
 }
+
+.footer__link {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    cursor: default;
+    transition: all 0.3s;
+}
+
+.footer__link:hover {
+    text-decoration: none;
+    list-style: none;
+    color: rgba(58, 214, 214, 0.925);
+    cursor: pointer;
+    transition: all 0.3s;
+}

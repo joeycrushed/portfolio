@@ -5,8 +5,7 @@ import logo from'./images/logo.png'
 
 function Nav() {
     return (
-        <div className="nav">
-                <img className="logo" src={logo} alt="" />
+        <div className="nav">        
             <ul className="nav__items">
                 <Link className="nav__link" to="projects" spy={true} smooth={true} duration={1000}>Projects</Link>
                 <Link className="nav__link" to="about" spy={true} smooth={true} duration={1000}>About</Link>
