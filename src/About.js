@@ -3,7 +3,7 @@ import './About.css'
 
 function About() {
     return (
-        <div className="about__container" id="about">
+        <div className="about__container about_bg" id="about">
             <div className="about__items">
                 <div className="about__text">
                     <h1>About me</h1>
@@ -13,7 +13,9 @@ function About() {
                     for 10 + years where I delivered the brand's aesthetic in-store through visual graphics and videos whilst managing service
                     and sales. </p>
                 </div>
+                <div className="waves"></div>
             </div>
+            
         </div>
     )
 }

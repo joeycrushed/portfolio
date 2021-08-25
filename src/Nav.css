@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     padding: 0px 36px;
-    background-color: black;
+    background-color: hsla(0, 0%, 0%, 0.4);
     color: white;
     height: 69px;
 }
@@ -18,15 +18,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding-inline-start: 0px;
 }
 
 .nav__link {
+    font-size: 18px;
     text-decoration: none;
     list-style: none;
     color: white;
     cursor: default;
     transform: scale(1.00);
+    transition: all 0.2s;
 }
 
 .nav__link:hover {
@@ -34,7 +36,8 @@
     list-style: none;
     color: white;
     cursor: pointer;
-    transform: scale(1.03);
+    transform: scale(1.1);
+    transition: all 0.2s;
 }
 
 .logo {

@@ -1,5 +1,5 @@
 import './App.css';
-import Nav from "./Nav";
+
 import Banner from "./Banner";
 import Projects from "./Projects";
 import About from "./About"
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="app">
-      <Nav />
+      
       <Banner />
       <Projects />
       <About />
