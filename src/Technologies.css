@@ -20,3 +20,14 @@
  margin-right: 50px;
  padding-bottom: 12px;
 }
+
+@media all and (max-width: 480px) {
+    .tech__items img {
+        height: 50px;
+        padding-bottom: 12px;
+        margin: 0px 10px;
+    }
+    .tech__contents h1 {
+        margin-bottom: 50px;
+    }
+}

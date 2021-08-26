@@ -75,3 +75,55 @@
 	50%  { background-position: 100% 70%, 0 0;}
 	100% { background-position: 0% 30%, 0 0;}
 }
+
+
+@media all and (max-width: 480px) {
+    .about__container {
+        text-align: center;
+        padding: 40px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+
+}
+
+.about__items {
+    padding: 18px 18px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.about__text {
+    width: 639px;
+    
+}
+
+.about__text h1 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.about__text p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.about__contact {
+    text-align: justify;
+    padding-inline-start: 39px;
+}
+
+.about__align {
+    text-align: center;
+}
+
+.about__contact li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+}
